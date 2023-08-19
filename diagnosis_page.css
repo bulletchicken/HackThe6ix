@@ -1,0 +1,32 @@
+:root {
+    --red: #c20201;
+    --red2: #fc4f4b;
+    --red3: #fa9b99;
+    --red4: #e7b9a9;
+    --red5: #fce1cc;
+}
+
+
+body {
+    background: linear-gradient(315deg, var(--red5) 3%, var(--red4) 38%, white 100%, var(--red3) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#brand_logo{
+    height: 7rem;
+    width: 10rem;
+}
+
+#test-site {
+    display: flex;
+    justify-content: center;
+    margin: 10rem;
+}
+
+#test-component {
+    background-color: aliceblue;
+    border-radius: 2rem;
+    width: 80%;
+    height: 40rem;
+}
