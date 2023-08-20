@@ -10,7 +10,7 @@ let lastsaid = ""
 let lastsentence = ""
 
 const openaiEndpoint = 'https://api.openai.com/v1/chat/completions';
-const openaiApiKey = '';
+const openaiApiKey = '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';
 
 chatForm.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
@@ -51,7 +51,7 @@ function openAIAnswer(msg){
         },
         body: JSON.stringify({
         messages: [
-            {"role": "system", "content": "Let's roleplay. Pretend you're a medical clinic. The patient will have a skin disease and you have to prescibe next steps for what they should do after they have been given medication for it. Keep your response to a max of 500 characters. Here is what the patient said: " + prompt},
+            {"role": "system", "content": "Let's roleplay. Pretend you're a medical clinic. The patient will have a skin disease and you have to prescibe next steps for what they should do after they have been given medication for it. At the end, make sure to say they can book an appointment with Dr. Neon if they choose so. Keep your response to a max of 500 characters. Here is what the patient said: " + prompt},
             {"role": "user", "content": ``},
         ],
           model: 'gpt-3.5-turbo'
