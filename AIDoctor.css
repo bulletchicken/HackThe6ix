@@ -41,14 +41,26 @@ a {
 	text-decoration: none;
 }
 
-.btn {
+#btn {
 	cursor: pointer;
-	padding: 5px 15px;
-	background: var(--beige);
+	padding-right: 1.2vw;
+	padding-left: 1.2vw;
+	background: white;
 	color: var(--mainblue);
 	border: 0;
 	font-size: 17px;
 	border-radius: 0px 10px 10px 0px;
+    box-shadow: 1px 1px 5px var(--shadow);
+}
+
+#btn2{
+	cursor: pointer;
+	padding-right: 1.2vw;
+	padding-left: 1.2vw;
+	background: white;
+	color: var(--mainblue);
+	border: 0;
+	font-size: 17px;
     box-shadow: 1px 1px 5px var(--shadow);
 }
 
@@ -145,7 +157,7 @@ a {
 	color: grey;
 	padding: 10px;
 	padding-left:20px;
-	margin-left:10em;
+	margin-left:10vw;
 	margin-bottom: 15px;
 	border-radius: 10px;
 	background-color: rgba(255, 255, 255, 1);
@@ -155,7 +167,7 @@ a {
 .chat-messages .reply {
 	color: black;
 	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	margin-right:10em;
+	margin-right:10vw;
 	padding: 10px;
 	padding-left:20px;
 	margin-bottom: 15px;
@@ -183,8 +195,8 @@ a {
 
 
 .chat-form-container {
-    display:grid;
 	padding: 20px 100px;
+	box-shadow: #5cb85c;
 } 
 
 .chat-form-container form {
