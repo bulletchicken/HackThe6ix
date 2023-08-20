@@ -3,6 +3,8 @@
 <head>
     <link rel = 'stylesheet' href = 'homepage.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel = "stylesheet" href = "nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,31 +13,26 @@
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img id = 'brand_logo' src = 'images\R-removebg-preview.png'></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Diagnosis Service</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Further Treatment</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Learn More!</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Login/Register</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+  <div class="wrapper">
+    <input type="checkbox" id="btn" hidden>
+    <label for="btn" class="menu-btn">
+      <i class="fas fa-bars"></i>
+      <i class="fas fa-times"></i>
+    </label>
+    <nav id="sidebar">
+      <div class="title">Side Menu</div>
+      <ul class="list-items">
+        <li><a href="homepage.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="diagnosis_page.html"><i class="fas fa-address-book"></i>Diagnosis</a></li>
+        <li><a href="AIDoctor.html"><i class="fas fa-stream"></i>Treatment</a></li>
+        <li><a href="#"><i class="fas fa-user"></i>About us</a></li>
+        <li><a href="#"><i class="fas fa-globe-asia"></i>Languages</a></li>
+        <li><a href="#"><i class="fas fa-envelope"></i>Contact us</a></li>
+        <li><a href="#"><i class="fas fa-cog"></i>Settings</a></li>
+        </div>
+      </ul>
+    </nav>
+  </div>
     <div id = 'carousel'>
         <div class="jumbotron">
             <h1 id = 'jumbotron-element' class="display-4">Helping You Feel Confident In Your Own Skin</h1>
