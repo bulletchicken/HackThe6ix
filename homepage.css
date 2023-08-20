@@ -1,0 +1,59 @@
+:root {
+    --red: #c20201;
+    --red2: #fc4f4b;
+    --red3: #fa9b99;
+    --red4: #e7b9a9;
+    --red5: #fce1cc;
+}
+
+
+body {
+    background: linear-gradient(315deg, var(--red5) 3%, var(--red4) 38%, white 100%, var(--red3) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#brand_logo{
+    height: 7rem;
+    width: 10rem;
+}
+
+#carousel {
+    justify-content: center;
+    display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+#subheading-1 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#jumbotron-element {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#important-button {
+    width: 20rem;
+    height: 7rem;
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 10rem;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#card-section-1 {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 2rem 2rem 2rem;
+    justify-content: center;
+}
+
+#card-item {
+    margin: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+}
